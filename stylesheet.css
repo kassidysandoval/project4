@@ -1,0 +1,73 @@
+body {
+background:url("images/ocean3.jpg");
+background-size:100vw;
+height: 159px;
+width: 100vw;
+}
+
+h1{
+	font-family:"Arial";
+	font-size:76px;
+	color:white;
+	text-align:center;
+	border: 10px white dotted;
+	}
+h2 {
+	font-family:"Arial";
+	font-size:45px;
+	color:white;
+	text-align:center;
+
+}
+
+li a {
+  display: inline;
+ float: left;
+font-family:Arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E5E9FF;
+}
+li a {
+    display: block;
+    color: #00127F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.grid {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-gap:5vh;
+border:10px black soild;
+}
+.headerbody {
+padding:1em;
+grid-colum-start:1;
+grid-colum-end:span 3;
+border:10px white dotted;
+}
+.leftsidebar {
+background-image:url("images/ocean3.jpg"); 
+padding:1em;
+grid-colum-start:1;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
+
+.rightsidebar {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:1;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
+img{
+text-align:center;	
+
+}
