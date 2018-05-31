@@ -67,7 +67,91 @@ grid-colum-start:1;
 grid-colum-end:span 1;
 border:10px white dotted;
 }
+.samplegrid-a {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:1;
+grid-colum-end:span ;
+border:10px white dotted;
+}
+.samplegrid-b
+{
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:2;
+grid-colum-end:span 2;
+border:10px white dotted;
+}
+.samplegrid-d{
+background-image: url("images/ocean3.jpg");
+display:flex;
+padding: 1em;
+grid-colum-start:1;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
+.samplegrid-c{
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:1;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
 img{
-text-align:center;	
-
+text-align:center;
+max-width:560px;
+height:545px;
+}
+video {
+text-align:center;
+max-width:560px;
+height:545px;
+}
+p {
+font-family:"Arial";
+font-size:45px;
+color:white;
+text-align:center;
+}
+.samplegrid-e {
+	background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:2;
+grid-colum-end:span 2;
+border:10px white dotted;
+}
+.samplegrid-f {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:2;
+grid-colum-end:span 2;
+border:10px white dotted;
+}
+.samplegrid-5 {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:1;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
+.samplegrid-6 {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:2;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
+.samplegrid-7 {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:3;
+grid-colum-end:span 1;
+border:10px white dotted;
+}
+.samplegrid-8 {
+background-image: url("images/ocean3.jpg");
+padding: 1em;
+grid-colum-start:4;
+grid-colum-end:span 1;
+border:10px white dotted;
 }
